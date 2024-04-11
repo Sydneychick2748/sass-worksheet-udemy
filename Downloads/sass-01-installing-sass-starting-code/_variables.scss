@@ -1,0 +1,8 @@
+//this is a partial and you know because the file starts with a "_" this is were you can store the main variables to share 
+
+//$main-color:#521751;
+$size-default: 1rem;
+$width:( main: 90% , secondary: 30rem);
+// map
+$colors: (main: #521751, secondary:#fa923f);
+$border-default:0.05rem solid map-get($colors, main);
